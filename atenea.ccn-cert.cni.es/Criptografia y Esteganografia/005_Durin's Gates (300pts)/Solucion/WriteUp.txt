@@ -2,7 +2,7 @@ Esto es para largo
 primero revisamos la metadata de la imagen y verificamos si no hay archivos ocultos dentro 
 
 1- exif doors_of_durin.jpg es el comando que usamos en la imagen, nos damos cuenta en la metadata que en la etiqueta Artista hay algo extraño 
-68913499125FAA y en el posicionamiento algo extra CbC esto nos ayudara mas tarde 
+68913499125FAA y en el posicionamiento algo extra CbC esto nos ayudara mas tarde  lo guardo como 0.jpg para mas claro.
 
 
 2-steghide extract -sf doors_of_durin.jpg es el comando que usamos en la imagen ,nos pide una contraseña en la imagen vemos una frase del señor 
