@@ -1,0 +1,9 @@
+Analizar las string de 
+https://atenea.ccn-cert.cni.es/static/59b514174bffe4ae/f2588f3111df6d03bdc89774ed3be3a2.gif
+con ayuda de https://29a.ch/photo-forensics/
+
+se encuentra algo especial de strings ejemplo:
+
+NETSCAPE2.0
+Created with GIMP
+

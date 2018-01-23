@@ -1,0 +1,40 @@
+Bienvenido a la plataforma de desafíos de seguridad
+5acc78841a190899a3e5745cb702cff0.png
+ATENEA es una plataforma de desafíos de seguridad informática compuesta por diferentes retos que abarcan diferentes campos, como Criptografía y Esteganografía, Exploiting, Forense, Networking y Reversing, entre otros.
+
+Ha sido desarrollada por el CCN-CERT, Capacidad de Respuesta a incidentes de Seguridad de la Información del Centro Criptológico Nacional, CCN, adscrito al Centro Nacional de Inteligencia, CNI. Este servicio se creó en el año 2006 como CERT Gubernamental Nacional español.
+
+El juego está orientado para cualquier persona con inquietudes en el campo de la seguridad informática, siendo estos los principales objetivos que se persiguen:
+Concienciar al personal TIC sobre los riesgos de la seguridad informática.
+Involucrar a todo aquél con experiencia en seguridad TIC.
+Mostrar a las personas con menos experiencia en la seguridad TIC que los retos son divertidos y que la seguridad no es una ciencia secreta que nunca entenderán.
+Reglas
+Registrándote en la plataforma, estás aceptando las siguientes normas:
+Resolver un desafío que valga X puntos te dará X puntos. Si eres el primero en resolverlo, figurarás en el panel de puntuaciones con una mención de medalla de oro. El segundo obtiene una mención de plata. El tercero obtiene una mención de medalla de bronce y el resto de concursantes, solamente los puntos correspondientes
+Si has consumido todos los intentos para resolver un reto tienes la posibilidad de seguir intentándolo, pero sin recibir ningún punto
+No están permitidos los ataques de Denegación de Servicio
+No están permitidos los escaneos automatizados contra la plataforma
+No se permiten ataques destructivos (no modifiques ningún desafío, ya que perjudicarás el juego de otros jugadores)
+Como norma general, mantener el objetivo en los puntos que están explícitamente indicados para ello
+Si aún así encuentras una vulnerabilidad en nuestra infraestructura o algún atajo para resolver un desafío con más facilidad, por favor, infórmanos en security@atenea.ccn-cert.cni.es y obtendrás reconocimiento y puntos de bonificación por ello
+Los organizadores pueden cambiar las reglas a lo largo del desafío
+Ocasionalmente, y en función del número de jugadores que finalicen un determinado desafío, así como basado en el tiempo que hayan utilizado para ello, es posible que se proporcione alguna pista adicional
+Los jugadores que rompan estas reglas podrán ser penalizados o incluso expulsados de forma permamente de la plataforma
+
+Finalmente, y la normal más importante de todas, disfrutad de los desafíos que os hemos preparado!
+
+Solución a los retos
+La solución de los retos (flag) se ha estandarizado con el siguiente formato:
+
+flag{md5}
+
+Esto quiere decir que si, por ejemplo, has obtenido como solución a un determinado reto la cadena Atenea1337, deberás calcular su md5 y meterlo entre flag{ y } previamente al envío a la plataforma.
+
+Para el ejemplo de la cadena anterior, el procedimiento sería el siguiente:
+Calcular el md5 de la cadena Atenea1337: f3ac2c5e9137453a2252e77b8d6c75f4
+Añadirle flag{ al principio: flag{f3ac2c5e9137453a2252e77b8d6c75f4
+Añadirle } al final: flag{f3ac2c5e9137453a2252e77b8d6c75f4}
+
+De manera que flag{f3ac2c5e9137453a2252e77b8d6c75f4} sería lo que tendrías que introducir como solución al reto.
+
+Si no tienes experiencia en seguridad informática te aconsejamos que comiences realizando los retos de la categoría Básica.
