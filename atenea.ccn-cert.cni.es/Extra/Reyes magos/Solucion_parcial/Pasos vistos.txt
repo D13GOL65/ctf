@@ -1,0 +1,19 @@
+Analizar las string de 
+https://atenea.ccn-cert.cni.es/static/59b514174bffe4ae/f2588f3111df6d03bdc89774ed3be3a2.gif
+con ayuda de https://29a.ch/photo-forensics/
+
+se encuentra algo especial de strings ejemplo:
+
+NETSCAPE2.0
+Created with GIMP
+
+si continuo observando hay servicios que sirven para extraer gif,
+https://ezgif.com/maker/ezgif-4-81a439b738-gif-im/ezgif-4-81a439b738.gif
+
+ adjunto el ejemplo, y se aprecia como cambian los puntitos
+asi que indirectamente podemos pensar que hay "morse" de por medio...ya sea del cartel o de los zapatos.
+ahora bien si pensamos en morse hay espacios, hay guion y hay puntos, puede haber muchas opciones, y no se sabe aun cuanto es el tiempo del delay real
+yo puse un delay de 3seg, pero podria haber mensajes entre medio.
+
+creo que ese seria el primer paso
+

@@ -1,0 +1,35 @@
+el primer comienzo que tenemos es que miramos la imagen, pareciera que hay unos textos en letra pequeña y pasa muy rapido
+se necesitan herramientas para ver un .swf
+buscando por la red no falta y se encuentran descompiladores de código
+https://www.free-decompiler.com/flash/download/?utm_source=app&utm_medium=update&utm_campaign=app
+
+bajo uno cualquiera
+me refiere que esta en github
+https://github.com/jindrapetrik/jpexs-decompiler/releases
+
+al estar en java, esta multiplataforma, mac, linux , windows
+
+al revisar en el interior del swf
+ con un visor de swf, se encuentra un enlace de mega.co.nz
+tiene todo el aspecto de ser un archivo comprimido con contraseña y 3 archivos
+https://mega.nz/#!52p0VDza!g10n3iFE1wxEIqVVKSnrwPoIryR9JfwwFm2BUdTwrH8
+
+AB
+rudolph.jpg
+XMAS.exe
+
+aqui hay que aplicar fuerza bruta, para conocer la contraseña, 
+dado que el reto es navidad deberia tener algo relacionado con ello
+	 asi que lo almaceno en Archivo 1
+	 los primeros bytes se ven asi:
+	 
+
+OHOH
+     W–K               xmas/PK
+	
+
+*Nota	en la cabezera del archivo se aprecia de que es un archivo PK (comprimido)
+	 
+
+	 
+	 
