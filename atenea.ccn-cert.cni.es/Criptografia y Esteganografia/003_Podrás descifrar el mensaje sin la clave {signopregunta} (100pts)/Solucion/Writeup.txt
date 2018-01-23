@@ -1,0 +1,3 @@
+Herramienta usada: la web
+se encuentra el texto  se debe analizar con cuidado, cualquiera diria que es un texto con criptografia, pero es un texto con reemplazo de string
+hay que ser ordenado y considerar que el texto esta en un idioma

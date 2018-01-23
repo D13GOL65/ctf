@@ -1,0 +1,2 @@
+Herramienta usada: Cryptotool
+se encuentra el texto, al buscar se redacta la flag y eso es todo :)
