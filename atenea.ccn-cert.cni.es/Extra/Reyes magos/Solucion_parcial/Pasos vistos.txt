@@ -14,6 +14,7 @@ https://ezgif.com/maker/ezgif-4-81a439b738-gif-im/ezgif-4-81a439b738.gif
 asi que indirectamente podemos pensar que hay "morse" de por medio...ya sea del cartel o de los zapatos.
 ahora bien si pensamos en morse hay espacios, hay guion y hay puntos, puede haber muchas opciones, y no se sabe aun cuanto es el tiempo del delay real
 yo puse un delay de 3seg, pero podria haber mensajes entre medio.
+aunque tampoco descarto que pueda ser además algun binario (pintado = 1 , no pintado =0), deja mucho que pensar aun 
 
 creo que ese seria el primer paso
 
