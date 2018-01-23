@@ -1,0 +1,68 @@
+n este reto se presenta un archivo zip que contiene un análisis de tráfico.
+
+guest-VLAN.zip
+
+Algunos usuarios de la VLAN de invitados están quejándose de problemas de conectividad, de una latencia de red excesiva e incluso de errores con determinados certificados. Uno de los administradores ha reportado un pcap al departamento de seguridad para investigar el problema.
+
+Es posible que la red esté sufriendo algún tipo de ataque. Como analista de seguridad deberás reportar la MAC del atacante (en mayúsculas) para poder localizar los puertos afectados y llevar a cabo las acciones de mitigación oportunas (por ejemplo: 00:1A:2B:3C:4D:FF)
+
+
+_____________________________________________________________________________________________
+
+Dentro del archivo .zip se halla la captura que vamos a analizar, yo para este proceso he decidido usar NetworkMiner que es una estupenda herramienta para el análisis de este tipo de archivos, no obstante el formato original de la captura de red no es compatible con NetworkMiner y lo vamos a solucionar.
+
+Lo primero es abrir el archivo descomprimido con wireshark, file, save as || wireshark/tcpdump/… -pcap
+
+Selección_001.png
+
+Ahora ya está todo listo.
+
+INSTALAR NETWORKMINER
+
+Abro el pcap con NetworkMiner
+
+mono NetworkMiner.exe /root/Escritorio/Usable.pcap
+
+Selección_009.png
+
+NetworkMiner tiene una opción muy interesante que es el ordenamiento de los host tanto por paquetes recividos cómo por enviados, veréis que reto más sencillo.
+
+Vamos a ordenar los hosts según los paquetes enviados en descendiente.
+
+Selección_011
+
+Selección_010
+
+Bién la lógica nos dice que podría ser un equipo interno uno de los causantes de ataque DOS, pues volvemos a whireshark para ver a quién lanza peticiones de la red interna el host 192.168.1.134
+
+Filtro aplicado: (ip.src == 192.168.1.135 ) && (ip.dst == 192.168.1.134)
+
+Selección_012.png
+
+Analizando las tramas no hay connotaciones de un ataque DOS desde los equipos con IP privada 192.168.1.134, 192.168.1.135.
+
+Volvemos a NetworkMiner
+
+Selección_013.png
+
+Azul: host excluidos del análisis
+
+Verde: host confiables
+
+Morado: host Sospechoso
+
+Volvemos a wireshark
+
+Filtro aplicado: ip.src == 212.231.6.7
+
+Selección_014
+
+Claramente se observa que este host es el originario del ataque DOS dado que absolutamente todas las peticiones las realiza al equipo 192.168.1.135.
+
+Cómo paso final solo queda obtener la dirección MAC de este equipo y para esto NetworkMiner es un solete de aplicación.
+
+Selección_015
+
+Por lo tanto la flag ya la tenemos 08:00:27:EC:26:E5
+
+flag{bb9ac1dbce1995e00af29c373fc30e5d}
