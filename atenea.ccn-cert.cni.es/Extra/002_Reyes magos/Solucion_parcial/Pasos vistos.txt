@@ -11,10 +11,22 @@ si continuo observando hay servicios que sirven para extraer gif,
 https://ezgif.com/maker/ezgif-4-81a439b738-gif-im/ezgif-4-81a439b738.gif
 
  adjunto el ejemplo, y se aprecia como cambian los puntitos
+ 
 asi que indirectamente podemos pensar que hay "morse" de por medio...ya sea del cartel o de los zapatos.
 ahora bien si pensamos en morse hay espacios, hay guion y hay puntos, puede haber muchas opciones, y no se sabe aun cuanto es el tiempo del delay real
 yo puse un delay de 3seg, pero podria haber mensajes entre medio.
 aunque tampoco descarto que pueda ser además algun binario (pintado = 1 , no pintado =0), deja mucho que pensar aun 
 
 creo que ese seria el primer paso
+veo que son 21 frames en total mirandolo con casi cualquier visor como tal
+mirando solo el zapatos
+asumire por el lado de binario... el largo de bits será el tema final para ver si se resuelve
+
+
+
+ahora mirando la caja
+
+
+? son 3 puntos.
+
 
