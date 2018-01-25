@@ -7,3 +7,8 @@ atenea.ccn-cert.cni.es/Exploiting/003_Microsoft Sloth (125pts)/Archivos/mslot-mi
 atenea.ccn-cert.cni.es/Exploiting/003_Microsoft Sloth (125pts)/Archivos/mslot-misc-730b62975a6d5fe34328fc927290c0dd.id2
 atenea.ccn-cert.cni.es/Exploiting/003_Microsoft Sloth (125pts)/Archivos/mslot-misc-730b62975a6d5fe34328fc927290c0dd.nam
 atenea.ccn-cert.cni.es/Exploiting/003_Microsoft Sloth (125pts)/Archivos/mslot-misc-730b62975a6d5fe34328fc927290c0dd.til
+*.nam
+*.til
+*.id1
+*.id0
+*.id2
