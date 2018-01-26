@@ -21,3 +21,6 @@ esto nos servir para decubri que se trrataba de encriptacion AES-  -CBC nos falt
 6- aes-256-cbc -d -md MD5 -salt -pass pass:68913499125FAA -in salted.txt -out minas es el comando que usamos con el archivo txt, 
 ahora podemos ver que es un video y dentro esta la contraseña 
 eso es todo
+
+en los archivos esta visible todo.
+

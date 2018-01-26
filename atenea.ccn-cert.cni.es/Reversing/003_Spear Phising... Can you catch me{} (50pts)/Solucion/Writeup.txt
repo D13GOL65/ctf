@@ -1,7 +1,12 @@
 Spear Phising... Can you catch me? (50pts)
-es abrir en notepad++ explorar un poco del formato , google y aparece de inmediato el cve
+es abrir en notepad++ explorar un poco del formato , google y aparece de inmediato el cve por el rtf en su vulnerabilidad
 
 
-CVE-2017-0199
+printf "CVE-2017-0199" | md5sum
+93b146d21d3bdc8635836f8a11ba62b9  -
+
+
 
 flag{93b146d21d3bdc8635836f8a11ba62b9}
+
+

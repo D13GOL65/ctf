@@ -11,7 +11,7 @@ comenzamos con el parametro -h STONE
 
 tenemos mas opciones 
 GA ->
-bCXE^^K ->
+bCXE^^K -> Hirotta
 ShellcoreDiscipliJA
 ShellcoreDiscipline  
 
@@ -25,4 +25,6 @@ si esta establecido el environment variable STONE y ademas el de Shellcoredis...
  pero un paso a la vez :)
  invocar desde cmd y ir generando los mutexA y environmentVariable segun se necesite
  
+ se aprecia una palabra
+
  

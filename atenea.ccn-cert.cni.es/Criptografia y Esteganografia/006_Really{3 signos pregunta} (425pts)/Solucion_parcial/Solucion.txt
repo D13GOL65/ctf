@@ -5,3 +5,13 @@ Que tiene caracteres 0x20 y 0x40 como espacios en blanco
 3.- whitespace stenography
 4.- de ahi sale ice/snow Y con eso extraes el contenido del texto
 5.- es una mezcla de comida que da X resultado
+
+
+
+
+The drink version of om nom nom; tasty beverages of the alcoholic nature.
+
+printf "groggrog"| md5sum
+58dfa0d5ab71d72f03cef779e9c7537b  -
+
+atenea.ccn-cert.cni.es/crypto-stego/06_really/flag.txt
