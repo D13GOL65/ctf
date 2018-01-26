@@ -12,6 +12,11 @@ Bien vallamos al lío entonces, lo primero es abrir el archivo descargado con wh
 
 y analizar la información.
 
+se puede hacer uso de conversores de pcapng a pcap http://pcapng.com/ inclusive..
+
+
+
+
 En un simple vistazo rápido del archivo se observa lo siguiente:
 
 Hay pocas máquinas implicadas en el pcap
