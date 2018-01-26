@@ -24,3 +24,12 @@ eso es todo
 
 en los archivos esta visible todo.
 
+
+anexo
+Kab***** 
+al cambio de una version de openssl a otro hay un cambio en la codificacion
+si usas una version moderna tienes q añadir -md md5
+te activa el modo "antiguo"
+https://github.com/fastlane/fastlane/issues/9542
+esto le ha pasado a mucha gente q le ha metido el openssl y le fue a la priemra
+y a mi y a otros no
