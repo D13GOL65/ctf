@@ -13,5 +13,3 @@ The drink version of om nom nom; tasty beverages of the alcoholic nature.
 
 printf "groggrog"| md5sum
 58dfa0d5ab71d72f03cef779e9c7537b  -
-
-atenea.ccn-cert.cni.es/crypto-stego/06_really/flag.txt
