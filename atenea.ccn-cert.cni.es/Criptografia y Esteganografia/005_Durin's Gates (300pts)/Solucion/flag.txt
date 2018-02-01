@@ -1,4 +1,3 @@
 printf "Minas_Tirith_2017" | md5sum
 c486904231261cc28cbff2f4ce7d6126  -
-
-atenea.ccn-cert.cni.es/crypto-stego/05_Durins-Gates/flag.txt
+flag{c486904231261cc28cbff2f4ce7d6126}
