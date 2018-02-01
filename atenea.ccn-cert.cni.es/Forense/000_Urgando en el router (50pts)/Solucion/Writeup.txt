@@ -1,0 +1,10 @@
+Para resolver tenemos que encontrar la contraseña, la gran mayoria de router usan la estructura de linux
+
+abrimos con un 7zip , buscamos carpeta etc/passwd pero no contiene hash, vamos a etc/shadow
+y tiene el hash a buscar...
+
+
+luego de bruteforce a contraseña de root es 
+prometheus
+
+flag{e4f00638b8a10e6994e67af2f832d51c}
