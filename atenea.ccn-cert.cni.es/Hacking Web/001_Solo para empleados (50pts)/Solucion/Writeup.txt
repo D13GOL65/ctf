@@ -1,5 +1,11 @@
-El reto es ser de la web, entonces uno viene x-fordwarded for desde el sitio
+El reto es ser de la web de cert.cni.es 
+
+, entonces uno viene x-fordwarded for desde el sitio
 entonces :
 
-
 X-Forwarded-For: IP de ccn-cert.cni.es
+
+el principio es
+https://stackoverflow.com/questions/33818540/how-to-get-the-first-client-ip-from-x-forwarded-for-behind-nginx-gunicorn
+
+que la ip validada es desde ese valor :)
