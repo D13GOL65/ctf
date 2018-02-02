@@ -1,0 +1,5 @@
+El reto es ser de la web, entonces uno viene x-fordwarded for desde el sitio
+entonces :
+
+
+X-Forwarded-For: IP de ccn-cert.cni.es
