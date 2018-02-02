@@ -33,6 +33,22 @@ mas informacion de esto en https://www.slashroot.in/how-are-passwords-stored-lin
 
 ahora para crackearlo se usa lo standart de siempre jhon the ripper o bien hashcat.
 luego de bruteforce a contraseña de root es 
+
 prometheus
 
 flag{e4f00638b8a10e6994e67af2f832d51c}
+
+
+Anexo:
+mas menos se ve asi en jtr
+
+./john --wordlist=/home/software/secList/Passwords/john.txt /tmp/hash.txt
+
+Using Defaul input encoding : UTF-8
+Loaded 1 password hash (sha512crypt, crypt(3) $6$ [SHA512 256/256 AVX2 4X]
+Cost 1 (iteration count) is 5000 for all loaded hashes
+Will run 4 OpenMP threads
+Press 'q'
+prometheus   (?)
+
+
