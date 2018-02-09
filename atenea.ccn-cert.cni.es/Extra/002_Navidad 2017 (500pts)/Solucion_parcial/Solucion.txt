@@ -131,6 +131,10 @@ And a happy New Year!
 asi que lo que falta es decodificar bien el exe, quizas hay que usar radare o bien, debemos intentar buscar mas
 y entender que puede ser AB  y el final de stego de la imagen de reno...
 
+por otro lado luego de pasar la validacion del reno pasa por una parte donde llama a buscar un recurso de ?  una dll o bien del programa, no estoy seguro
+quizas eso debe ser para cuando tenga algo de tiempo :)
+
+
 Saludos
  
  
