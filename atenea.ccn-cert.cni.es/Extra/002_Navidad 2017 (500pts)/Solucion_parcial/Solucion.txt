@@ -133,6 +133,8 @@ y entender que puede ser AB  y el final de stego de la imagen de reno...
 
 por otro lado luego de pasar la validacion del reno pasa por una parte donde llama a buscar un recurso de ?  una dll o bien del programa, no estoy seguro
 quizas eso debe ser para cuando tenga algo de tiempo :)
+dejare una carpeta de img para revisar el png porciacaso.
+pero que es claro que hay otro reto de stenografía por aqui..pues eso es claro.
 
 
 Saludos
