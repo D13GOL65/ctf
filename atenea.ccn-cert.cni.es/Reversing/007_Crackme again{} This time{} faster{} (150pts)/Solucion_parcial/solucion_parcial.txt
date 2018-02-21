@@ -41,6 +41,10 @@ trabaja con rotaciones 3, 2, 5, y aun viendo las referencias no entiendo que qui
 
 perdí la opcion de puntuar en este reto, pero cuando tenga mas tiempo seguiré intentando :)
 
+
+hasta donde entiendo debemos colocar un environment variable y además verificar el argumento, ademas de un socket que esta alerta..
+desde ahi hay que seguir buscando
 saludos
+
 
 
