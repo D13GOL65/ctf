@@ -34,5 +34,6 @@ https://github.com/aidanhs/tcldis
 
 esta muy raro el reto, hasta aqui lo dejo hoy
 
-saludos
+continuando práctico un tiempo en python y luego de usar algunas herramienta y reconstruir un header doy con el script luego es forzaf lass variables y ver el resultado..se adjunta imagen final   con el valor correcto y el script por si necesitan leerlo saludos 
+
 
